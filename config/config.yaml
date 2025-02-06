@@ -1,0 +1,9 @@
+data_directory: "./docs/"
+chunk_size: 5000
+chunk_overlap: 200
+embedding_model: "all-MiniLM-L6-v2"
+groq_api_key: "***********************" # get your free key : https://console.groq.com
+groq_model: "llama-3.3-70b-versatile"
+index_path: "faiss_index.bin"
+metadata_path: "metadata.pkl"
+documents_path: "documents.pkl"
